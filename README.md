@@ -21,7 +21,7 @@ secret = "eeВАШ_СЕКРЕТ"
 
 **2. Запусти:**
 ```bash
-docker compose up -d
+docker-compose up -d
 ```
 
 **3. Получи ссылку для подключения:**
