@@ -1,0 +1,11 @@
+services:
+  mtg:
+    image: nineseconds/mtg:2
+    container_name: mtg-proxy
+    restart: unless-stopped
+    ports:
+      - "443:443"
+    volumes:
+      - ./mtg.toml:/etc/mtg.toml:ro
+    entrypoint: ["/mtg"]
+    command: run /etc/mtg.toml

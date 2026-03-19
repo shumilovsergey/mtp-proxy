@@ -1,0 +1,4 @@
+# Replace with your generated secret (see README)
+secret = "YOUR_SECRET_HERE"
+
+bind-to = "0.0.0.0:443"
